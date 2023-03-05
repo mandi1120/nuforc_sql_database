@@ -5,7 +5,25 @@
 ## Overview:  
 This project was created as a final assignment for a master's course at NWMSU, Databases for Analytics.  
 
-### Requirements  
+### Project Description
+- For my final project, I chose to use UFO data because I am fascinated by the topic of UFO's. I found a UFO sighting dataset on [kaggle](https://www.kaggle.com/datasets/camnugent/ufo-sightings-around-the-world) which originated from National UFO Reporting Center.  
+
+The dataset contains the following columns:  
+- Date_time - standardized date and time of sighting
+- City - location of UFO sighting
+- State/province - the US state or Canadian province, appears blank for other locations
+- Country - Country of UFO sighting
+- UFO_shape - a one word description of the "spacecraft"
+- Length_of_encounter_seconds - standardized to seconds, length of the observation of the UFO
+- Described_duration _of_encounter - raw description of the length of the encounter (shows uncertainty to previous column)
+- Description - text description of the UFO encounter. Warning column is messy, with some curation it could lend itself to some natural language processing and sentiment analysis.
+- Date_documented - when was the UFO sighting reported
+- Latitude - latitude
+- Longitude - longitude
+
+By nature of open text fields, the data required some cleaning and standardization which is done within the SQL procedure.  
+
+### Project Requirements  
 - Create a database  
 - Your database must include at least three tables
 - One table must have at least 1,000 rows, and two other tables must have at least 100 rows
