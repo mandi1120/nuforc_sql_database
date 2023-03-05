@@ -40,34 +40,34 @@ This project was created as a final assignment for a master's course at NWMSU, D
 
 ## Screenshots:
 
-### Database:
+### Database: NUFORC
 ![Database](files/database.png)
 
-### Table: UFO_Sighting_Data:
+### Table: UFO_Sighting_Data
 ![UFO_Sighting_Data](files/ufo_sighting_data_screenshot.png)
 
-### Table: UFO_sightings (cleaned):
+### Table: UFO_sightings (cleaned)
 ![UFO_Sightings (cleaned)](files/ufo_sightings_screenshot.png)
 
-### Table: Dim_cities:
+### Table: Dim_cities
 ![Dim_cities](files/dim_cities_screenshot.png)
 
-### Table: Dim_date:
+### Table: Dim_date
 ![Dim_date](files/dim_date_screenshot.png)
 
-### View: US_Sightings_After_2000:
+### View: US_Sightings_After_2000
 ![US_Sightings_After_2000](files/us_sightings_after_2000_screenshot.png)
 
-### Temporary Table: US_Sightings_by_City:
+### Temporary Table: US_Sightings_by_City
 ![US_Sightings_by_City](files/us_sightings_by_city_screenshot.png)
 
-### Query: Count of Rows:
+### Query: Count of Rows
 ![Query: Count of Rows](files/table_size_screenshot.png)
 
-### Query: Aggregated by Shape and Weekday:
+### Query: Aggregated by Shape and Weekday
 ![Query: Aggregated by Shape and Weekday](files/weekday_shape_aggregate_query_screenshot.png)
 
-### Query: Aggregated by City Population:
+### Query: Aggregated by City Population
 ![Query: Aggregated by City Population](files/population_aggregate_query_screenshot.png)
 
 
